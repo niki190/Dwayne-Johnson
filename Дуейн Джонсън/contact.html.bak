@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <header>
+      <h1>Свържете се с нас</h1>
+    </header>
+    <nav class="nav-buttons"> <a href="index.html">Начало</a> <a href="about.html">За
+        нас</a> <a href="gallery.html">Галерия</a> <a href="blog.html">Блог</a>
+    </nav>
+    <section class="contact-section">
+      <h2>Нашите контакти</h2>
+      <p>📍 Адрес: София, България</p>
+      <p>📞 Телефон: +359 888 123 456</p>
+      <p>✉️ Email: info@example.com</p>
+      <h2>Свържете се с нас</h2>
+      <form action="#" method="post"> <label for="name">Име:</label> <input id="name"
+          name="name" required="" type="text"> <label for="email">Имейл:</label>
+        <input id="email" name="email" required="" type="email"> <label for="message">Съобщение:</label>
+        <textarea id="message" name="message" rows="5" required=""></textarea> <button
+          type="submit">Изпрати</button> </form>
+    </section>
+    <footer> © 2025 Дуейн Джонсън Фен Страница | Всички права запазени </footer>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <link rel="stylesheet" href="blog.css">
+  </head>
+  <body>
+    <header>
+      <h1>Блог</h1>
+    </header>
+    <nav class="nav-buttons"> <a href="index.html">Начало</a> <a href="about.html">За
+        нас</a> <a href="gallery.html">Галерия</a> <a href="contact.html">Контакти</a>
+    </nav>
+    <section class="blog-info">
+      <h2>Добре дошли в блога</h2>
+      <p>Тук можете да споделяте вашите мисли, истории и мнения, свързани с
+        Дуейн Джонсън и неговата кариера. Всеки е добре дошъл да пише!</p>
+    </section>
+    <section class="blog-form">
+      <h2>Напишете своя блог</h2>
+      <form> <label for="title">Заглавие:</label> <input id="title" name="title"
+
+          required="" type="text"> <label for="content">Съдържание:</label> <textarea
+
+id="content" name="content" rows="5" required=""></textarea> <button type="submit">Публикувай</button>
+      </form>
+    </section>
+   <footer> © 2025 Дуейн Джонсън Фен Страница | Всички права запазени </footer>
+  </body>
+</html>
